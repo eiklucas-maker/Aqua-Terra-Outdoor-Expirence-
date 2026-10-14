@@ -96,11 +96,9 @@
 <polygon class="vf" points="105.80,102.00 111.80,102.00 105.80,96.00"/>
 <polygon class="vf" points="160.20,102.00 154.20,102.00 160.20,96.00"/>
 <rect class="vf" x="35.00" y="95.80" width="69.20" height="2.00"/>
-<rect class="vf" x="161.80" y="95.80" width="47.20" height="2.00"/>
 <line class="v" x1="104.20" y1="80.60" x2="63.00" y2="95.80" stroke-width="0.9"/>
-<line class="v" x1="161.80" y1="80.60" x2="181.00" y2="95.80" stroke-width="0.9"/>
 <line class="v" x1="161.00" y1="105.80" x2="167.00" y2="105.80" stroke-width="1"/>
-<polyline class="v" points="167.00,105.80 213.00,105.80 221.00,79.00" stroke-width="1.1"/>
+<polyline class="v" points="167.00,105.80 167.00,105.80 221.00,79.00" stroke-width="1.1"/>
 <circle class="vf" cx="167.00" cy="105.80" r="0.9"/>
 <circle class="wh" cx="221.00" cy="79.00" r="1.1"/>
 <rect class="vf" x="37.00" y="83.80" width="24.00" height="12.00"/>
@@ -189,92 +187,6 @@
 <circle class="perf" cx="59.00" cy="88.20" r="0.25"/>
 <circle class="perf" cx="59.00" cy="86.60" r="0.25"/>
 <line class="t" x1="37.00" y1="85.00" x2="61.00" y2="85.00"/>
-<rect class="vf" x="183.00" y="83.80" width="24.00" height="12.00"/>
-<circle class="perf" cx="184.20" cy="94.60" r="0.25"/>
-<circle class="perf" cx="184.20" cy="93.00" r="0.25"/>
-<circle class="perf" cx="184.20" cy="91.40" r="0.25"/>
-<circle class="perf" cx="184.20" cy="89.80" r="0.25"/>
-<circle class="perf" cx="184.20" cy="88.20" r="0.25"/>
-<circle class="perf" cx="184.20" cy="86.60" r="0.25"/>
-<circle class="perf" cx="185.80" cy="94.60" r="0.25"/>
-<circle class="perf" cx="185.80" cy="93.00" r="0.25"/>
-<circle class="perf" cx="185.80" cy="91.40" r="0.25"/>
-<circle class="perf" cx="185.80" cy="89.80" r="0.25"/>
-<circle class="perf" cx="185.80" cy="88.20" r="0.25"/>
-<circle class="perf" cx="185.80" cy="86.60" r="0.25"/>
-<circle class="perf" cx="187.40" cy="94.60" r="0.25"/>
-<circle class="perf" cx="187.40" cy="93.00" r="0.25"/>
-<circle class="perf" cx="187.40" cy="91.40" r="0.25"/>
-<circle class="perf" cx="187.40" cy="89.80" r="0.25"/>
-<circle class="perf" cx="187.40" cy="88.20" r="0.25"/>
-<circle class="perf" cx="187.40" cy="86.60" r="0.25"/>
-<circle class="perf" cx="189.00" cy="94.60" r="0.25"/>
-<circle class="perf" cx="189.00" cy="93.00" r="0.25"/>
-<circle class="perf" cx="189.00" cy="91.40" r="0.25"/>
-<circle class="perf" cx="189.00" cy="89.80" r="0.25"/>
-<circle class="perf" cx="189.00" cy="88.20" r="0.25"/>
-<circle class="perf" cx="189.00" cy="86.60" r="0.25"/>
-<circle class="perf" cx="190.60" cy="94.60" r="0.25"/>
-<circle class="perf" cx="190.60" cy="93.00" r="0.25"/>
-<circle class="perf" cx="190.60" cy="91.40" r="0.25"/>
-<circle class="perf" cx="190.60" cy="89.80" r="0.25"/>
-<circle class="perf" cx="190.60" cy="88.20" r="0.25"/>
-<circle class="perf" cx="190.60" cy="86.60" r="0.25"/>
-<circle class="perf" cx="192.20" cy="94.60" r="0.25"/>
-<circle class="perf" cx="192.20" cy="93.00" r="0.25"/>
-<circle class="perf" cx="192.20" cy="91.40" r="0.25"/>
-<circle class="perf" cx="192.20" cy="89.80" r="0.25"/>
-<circle class="perf" cx="192.20" cy="88.20" r="0.25"/>
-<circle class="perf" cx="192.20" cy="86.60" r="0.25"/>
-<circle class="perf" cx="193.80" cy="94.60" r="0.25"/>
-<circle class="perf" cx="193.80" cy="93.00" r="0.25"/>
-<circle class="perf" cx="193.80" cy="91.40" r="0.25"/>
-<circle class="perf" cx="193.80" cy="89.80" r="0.25"/>
-<circle class="perf" cx="193.80" cy="88.20" r="0.25"/>
-<circle class="perf" cx="193.80" cy="86.60" r="0.25"/>
-<circle class="perf" cx="195.40" cy="94.60" r="0.25"/>
-<circle class="perf" cx="195.40" cy="93.00" r="0.25"/>
-<circle class="perf" cx="195.40" cy="91.40" r="0.25"/>
-<circle class="perf" cx="195.40" cy="89.80" r="0.25"/>
-<circle class="perf" cx="195.40" cy="88.20" r="0.25"/>
-<circle class="perf" cx="195.40" cy="86.60" r="0.25"/>
-<circle class="perf" cx="197.00" cy="94.60" r="0.25"/>
-<circle class="perf" cx="197.00" cy="93.00" r="0.25"/>
-<circle class="perf" cx="197.00" cy="91.40" r="0.25"/>
-<circle class="perf" cx="197.00" cy="89.80" r="0.25"/>
-<circle class="perf" cx="197.00" cy="88.20" r="0.25"/>
-<circle class="perf" cx="197.00" cy="86.60" r="0.25"/>
-<circle class="perf" cx="198.60" cy="94.60" r="0.25"/>
-<circle class="perf" cx="198.60" cy="93.00" r="0.25"/>
-<circle class="perf" cx="198.60" cy="91.40" r="0.25"/>
-<circle class="perf" cx="198.60" cy="89.80" r="0.25"/>
-<circle class="perf" cx="198.60" cy="88.20" r="0.25"/>
-<circle class="perf" cx="198.60" cy="86.60" r="0.25"/>
-<circle class="perf" cx="200.20" cy="94.60" r="0.25"/>
-<circle class="perf" cx="200.20" cy="93.00" r="0.25"/>
-<circle class="perf" cx="200.20" cy="91.40" r="0.25"/>
-<circle class="perf" cx="200.20" cy="89.80" r="0.25"/>
-<circle class="perf" cx="200.20" cy="88.20" r="0.25"/>
-<circle class="perf" cx="200.20" cy="86.60" r="0.25"/>
-<circle class="perf" cx="201.80" cy="94.60" r="0.25"/>
-<circle class="perf" cx="201.80" cy="93.00" r="0.25"/>
-<circle class="perf" cx="201.80" cy="91.40" r="0.25"/>
-<circle class="perf" cx="201.80" cy="89.80" r="0.25"/>
-<circle class="perf" cx="201.80" cy="88.20" r="0.25"/>
-<circle class="perf" cx="201.80" cy="86.60" r="0.25"/>
-<circle class="perf" cx="203.40" cy="94.60" r="0.25"/>
-<circle class="perf" cx="203.40" cy="93.00" r="0.25"/>
-<circle class="perf" cx="203.40" cy="91.40" r="0.25"/>
-<circle class="perf" cx="203.40" cy="89.80" r="0.25"/>
-<circle class="perf" cx="203.40" cy="88.20" r="0.25"/>
-<circle class="perf" cx="203.40" cy="86.60" r="0.25"/>
-<circle class="perf" cx="205.00" cy="94.60" r="0.25"/>
-<circle class="perf" cx="205.00" cy="93.00" r="0.25"/>
-<circle class="perf" cx="205.00" cy="91.40" r="0.25"/>
-<circle class="perf" cx="205.00" cy="89.80" r="0.25"/>
-<circle class="perf" cx="205.00" cy="88.20" r="0.25"/>
-<circle class="perf" cx="205.00" cy="86.60" r="0.25"/>
-<line class="t" x1="183.00" y1="85.00" x2="207.00" y2="85.00"/>
 <rect class="eva" x="102.00" y="94.60" width="6.00" height="2.00"/>
 <rect class="vf" x="104.20" y="96.60" width="1.60" height="1.60"/>
 <line class="t" x1="104.20" y1="98.20" x2="105.80" y2="96.60"/>
@@ -325,10 +237,6 @@
 <line class="d" x1="61.00" y1="98.60" x2="61.00" y2="122.20"/>
 <line class="d" x1="37.00" y1="121.00" x2="61.00" y2="121.00" marker-start="url(#ar)" marker-end="url(#ar)"/>
 <text class="dt" x="49.00" y="120.30" text-anchor="middle">600</text>
-<line class="d" x1="183.00" y1="98.60" x2="183.00" y2="103.00"/>
-<line class="d" x1="207.00" y1="98.60" x2="207.00" y2="103.00"/>
-<line class="d" x1="183.00" y1="101.80" x2="207.00" y2="101.80" marker-start="url(#ar)" marker-end="url(#ar)"/>
-<text class="dt" x="195.00" y="101.10" text-anchor="middle">600</text>
 <line class="d" x1="35.00" y1="98.60" x2="35.00" y2="127.20"/>
 <line class="d" x1="101.00" y1="115.80" x2="101.00" y2="127.20"/>
 <line class="d" x1="35.00" y1="126.00" x2="101.00" y2="126.00" marker-start="url(#ar)" marker-end="url(#ar)"/>
@@ -377,10 +285,10 @@
 <circle class="bal" cx="147.00" cy="49.00" r="2"/>
 <text class="sm" x="147.00" y="49.70" text-anchor="middle" font-weight="bold">6</text>
 <circle cx="133.00" cy="57.40" r="0.35" fill="#000"/>
-<line class="d" x1="217.00" y1="92.40" x2="221.00" y2="99.00"/>
-<circle class="bal" cx="221.00" cy="99.00" r="2"/>
-<text class="sm" x="221.00" y="99.70" text-anchor="middle" font-weight="bold">12</text>
-<circle cx="217.00" cy="92.40" r="0.35" fill="#000"/>
+<line class="d" x1="197.00" y1="90.92" x2="197.00" y2="105.00"/>
+<circle class="bal" cx="197.00" cy="105.00" r="2"/>
+<text class="sm" x="197.00" y="105.70" text-anchor="middle" font-weight="bold">12</text>
+<circle cx="197.00" cy="90.92" r="0.35" fill="#000"/>
 <line class="d" x1="108.80" y1="100.40" x2="121.00" y2="99.80"/>
 <circle class="bal" cx="121.00" cy="99.80" r="2"/>
 <text class="sm" x="121.00" y="100.50" text-anchor="middle" font-weight="bold">11</text>
@@ -389,10 +297,6 @@
 <circle class="bal" cx="49.00" cy="69.00" r="2"/>
 <text class="sm" x="49.00" y="69.70" text-anchor="middle" font-weight="bold">10</text>
 <circle cx="49.00" cy="89.00" r="0.35" fill="#000"/>
-<line class="d" x1="195.00" y1="89.00" x2="195.00" y2="69.00"/>
-<circle class="bal" cx="195.00" cy="69.00" r="2"/>
-<text class="sm" x="195.00" y="69.70" text-anchor="middle" font-weight="bold">10</text>
-<circle cx="195.00" cy="89.00" r="0.35" fill="#000"/>
 <line class="d" x1="41.00" y1="96.80" x2="45.00" y2="105.00"/>
 <circle class="bal" cx="45.00" cy="105.00" r="2"/>
 <text class="sm" x="45.00" y="105.70" text-anchor="middle" font-weight="bold">15</text>
@@ -401,10 +305,6 @@
 <circle class="bal" cx="69.00" cy="73.00" r="2"/>
 <text class="sm" x="69.00" y="73.70" text-anchor="middle" font-weight="bold">16</text>
 <circle cx="83.00" cy="88.60" r="0.35" fill="#000"/>
-<line class="d" x1="171.40" y1="88.20" x2="177.00" y2="71.80"/>
-<circle class="bal" cx="177.00" cy="71.80" r="2"/>
-<text class="sm" x="177.00" y="72.50" text-anchor="middle" font-weight="bold">16</text>
-<circle cx="171.40" cy="88.20" r="0.35" fill="#000"/>
 <text class="lbl" x="119.00" y="144.00" text-anchor="middle">VISTA LATERAL — ESC. 1:25</text>
 <line class="v" x1="257.00" y1="115" x2="329.00" y2="115"/>
 <line class="t" x1="257.00" y1="115.00" x2="255.50" y2="116.50"/>
@@ -587,7 +487,6 @@
 <line class="v" x1="221.00" y1="186.80" x2="221.00" y2="192.00" stroke-width="1.8" stroke="#333"/>
 <line class="v" x1="221.00" y1="177.20" x2="221.00" y2="172.00" stroke-width="1.8" stroke="#333"/>
 <rect class="vf" x="35.00" y="181.00" width="69.20" height="2.00" rx="0"/>
-<rect class="vf" x="161.80" y="181.00" width="47.20" height="2.00" rx="0"/>
 <rect class="vf" x="37.00" y="175.00" width="24.00" height="14.00" rx="0"/>
 <circle class="perf" cx="38.20" cy="187.80" r="0.25"/>
 <circle class="perf" cx="38.20" cy="186.20" r="0.25"/>
@@ -701,119 +600,6 @@
 <circle class="perf" cx="59.00" cy="179.80" r="0.25"/>
 <circle class="perf" cx="59.00" cy="178.20" r="0.25"/>
 <circle class="perf" cx="59.00" cy="176.60" r="0.25"/>
-<rect class="vf" x="183.00" y="175.00" width="24.00" height="14.00" rx="0"/>
-<circle class="perf" cx="184.20" cy="187.80" r="0.25"/>
-<circle class="perf" cx="184.20" cy="186.20" r="0.25"/>
-<circle class="perf" cx="184.20" cy="184.60" r="0.25"/>
-<circle class="perf" cx="184.20" cy="183.00" r="0.25"/>
-<circle class="perf" cx="184.20" cy="181.40" r="0.25"/>
-<circle class="perf" cx="184.20" cy="179.80" r="0.25"/>
-<circle class="perf" cx="184.20" cy="178.20" r="0.25"/>
-<circle class="perf" cx="184.20" cy="176.60" r="0.25"/>
-<circle class="perf" cx="185.80" cy="187.80" r="0.25"/>
-<circle class="perf" cx="185.80" cy="186.20" r="0.25"/>
-<circle class="perf" cx="185.80" cy="184.60" r="0.25"/>
-<circle class="perf" cx="185.80" cy="183.00" r="0.25"/>
-<circle class="perf" cx="185.80" cy="181.40" r="0.25"/>
-<circle class="perf" cx="185.80" cy="179.80" r="0.25"/>
-<circle class="perf" cx="185.80" cy="178.20" r="0.25"/>
-<circle class="perf" cx="185.80" cy="176.60" r="0.25"/>
-<circle class="perf" cx="187.40" cy="187.80" r="0.25"/>
-<circle class="perf" cx="187.40" cy="186.20" r="0.25"/>
-<circle class="perf" cx="187.40" cy="184.60" r="0.25"/>
-<circle class="perf" cx="187.40" cy="183.00" r="0.25"/>
-<circle class="perf" cx="187.40" cy="181.40" r="0.25"/>
-<circle class="perf" cx="187.40" cy="179.80" r="0.25"/>
-<circle class="perf" cx="187.40" cy="178.20" r="0.25"/>
-<circle class="perf" cx="187.40" cy="176.60" r="0.25"/>
-<circle class="perf" cx="189.00" cy="187.80" r="0.25"/>
-<circle class="perf" cx="189.00" cy="186.20" r="0.25"/>
-<circle class="perf" cx="189.00" cy="184.60" r="0.25"/>
-<circle class="perf" cx="189.00" cy="183.00" r="0.25"/>
-<circle class="perf" cx="189.00" cy="181.40" r="0.25"/>
-<circle class="perf" cx="189.00" cy="179.80" r="0.25"/>
-<circle class="perf" cx="189.00" cy="178.20" r="0.25"/>
-<circle class="perf" cx="189.00" cy="176.60" r="0.25"/>
-<circle class="perf" cx="190.60" cy="187.80" r="0.25"/>
-<circle class="perf" cx="190.60" cy="186.20" r="0.25"/>
-<circle class="perf" cx="190.60" cy="184.60" r="0.25"/>
-<circle class="perf" cx="190.60" cy="183.00" r="0.25"/>
-<circle class="perf" cx="190.60" cy="181.40" r="0.25"/>
-<circle class="perf" cx="190.60" cy="179.80" r="0.25"/>
-<circle class="perf" cx="190.60" cy="178.20" r="0.25"/>
-<circle class="perf" cx="190.60" cy="176.60" r="0.25"/>
-<circle class="perf" cx="192.20" cy="187.80" r="0.25"/>
-<circle class="perf" cx="192.20" cy="186.20" r="0.25"/>
-<circle class="perf" cx="192.20" cy="184.60" r="0.25"/>
-<circle class="perf" cx="192.20" cy="183.00" r="0.25"/>
-<circle class="perf" cx="192.20" cy="181.40" r="0.25"/>
-<circle class="perf" cx="192.20" cy="179.80" r="0.25"/>
-<circle class="perf" cx="192.20" cy="178.20" r="0.25"/>
-<circle class="perf" cx="192.20" cy="176.60" r="0.25"/>
-<circle class="perf" cx="193.80" cy="187.80" r="0.25"/>
-<circle class="perf" cx="193.80" cy="186.20" r="0.25"/>
-<circle class="perf" cx="193.80" cy="184.60" r="0.25"/>
-<circle class="perf" cx="193.80" cy="183.00" r="0.25"/>
-<circle class="perf" cx="193.80" cy="181.40" r="0.25"/>
-<circle class="perf" cx="193.80" cy="179.80" r="0.25"/>
-<circle class="perf" cx="193.80" cy="178.20" r="0.25"/>
-<circle class="perf" cx="193.80" cy="176.60" r="0.25"/>
-<circle class="perf" cx="195.40" cy="187.80" r="0.25"/>
-<circle class="perf" cx="195.40" cy="186.20" r="0.25"/>
-<circle class="perf" cx="195.40" cy="184.60" r="0.25"/>
-<circle class="perf" cx="195.40" cy="183.00" r="0.25"/>
-<circle class="perf" cx="195.40" cy="181.40" r="0.25"/>
-<circle class="perf" cx="195.40" cy="179.80" r="0.25"/>
-<circle class="perf" cx="195.40" cy="178.20" r="0.25"/>
-<circle class="perf" cx="195.40" cy="176.60" r="0.25"/>
-<circle class="perf" cx="197.00" cy="187.80" r="0.25"/>
-<circle class="perf" cx="197.00" cy="186.20" r="0.25"/>
-<circle class="perf" cx="197.00" cy="184.60" r="0.25"/>
-<circle class="perf" cx="197.00" cy="183.00" r="0.25"/>
-<circle class="perf" cx="197.00" cy="181.40" r="0.25"/>
-<circle class="perf" cx="197.00" cy="179.80" r="0.25"/>
-<circle class="perf" cx="197.00" cy="178.20" r="0.25"/>
-<circle class="perf" cx="197.00" cy="176.60" r="0.25"/>
-<circle class="perf" cx="198.60" cy="187.80" r="0.25"/>
-<circle class="perf" cx="198.60" cy="186.20" r="0.25"/>
-<circle class="perf" cx="198.60" cy="184.60" r="0.25"/>
-<circle class="perf" cx="198.60" cy="183.00" r="0.25"/>
-<circle class="perf" cx="198.60" cy="181.40" r="0.25"/>
-<circle class="perf" cx="198.60" cy="179.80" r="0.25"/>
-<circle class="perf" cx="198.60" cy="178.20" r="0.25"/>
-<circle class="perf" cx="198.60" cy="176.60" r="0.25"/>
-<circle class="perf" cx="200.20" cy="187.80" r="0.25"/>
-<circle class="perf" cx="200.20" cy="186.20" r="0.25"/>
-<circle class="perf" cx="200.20" cy="184.60" r="0.25"/>
-<circle class="perf" cx="200.20" cy="183.00" r="0.25"/>
-<circle class="perf" cx="200.20" cy="181.40" r="0.25"/>
-<circle class="perf" cx="200.20" cy="179.80" r="0.25"/>
-<circle class="perf" cx="200.20" cy="178.20" r="0.25"/>
-<circle class="perf" cx="200.20" cy="176.60" r="0.25"/>
-<circle class="perf" cx="201.80" cy="187.80" r="0.25"/>
-<circle class="perf" cx="201.80" cy="186.20" r="0.25"/>
-<circle class="perf" cx="201.80" cy="184.60" r="0.25"/>
-<circle class="perf" cx="201.80" cy="183.00" r="0.25"/>
-<circle class="perf" cx="201.80" cy="181.40" r="0.25"/>
-<circle class="perf" cx="201.80" cy="179.80" r="0.25"/>
-<circle class="perf" cx="201.80" cy="178.20" r="0.25"/>
-<circle class="perf" cx="201.80" cy="176.60" r="0.25"/>
-<circle class="perf" cx="203.40" cy="187.80" r="0.25"/>
-<circle class="perf" cx="203.40" cy="186.20" r="0.25"/>
-<circle class="perf" cx="203.40" cy="184.60" r="0.25"/>
-<circle class="perf" cx="203.40" cy="183.00" r="0.25"/>
-<circle class="perf" cx="203.40" cy="181.40" r="0.25"/>
-<circle class="perf" cx="203.40" cy="179.80" r="0.25"/>
-<circle class="perf" cx="203.40" cy="178.20" r="0.25"/>
-<circle class="perf" cx="203.40" cy="176.60" r="0.25"/>
-<circle class="perf" cx="205.00" cy="187.80" r="0.25"/>
-<circle class="perf" cx="205.00" cy="186.20" r="0.25"/>
-<circle class="perf" cx="205.00" cy="184.60" r="0.25"/>
-<circle class="perf" cx="205.00" cy="183.00" r="0.25"/>
-<circle class="perf" cx="205.00" cy="181.40" r="0.25"/>
-<circle class="perf" cx="205.00" cy="179.80" r="0.25"/>
-<circle class="perf" cx="205.00" cy="178.20" r="0.25"/>
-<circle class="perf" cx="205.00" cy="176.60" r="0.25"/>
 <rect class="vf" x="104.20" y="152.00" width="1.60" height="60.00" rx="0"/>
 <rect class="eva" x="102.00" y="190.00" width="6.00" height="16.00" rx="0"/>
 <rect class="eva" x="102.00" y="158.00" width="6.00" height="16.00" rx="0"/>
@@ -852,10 +638,6 @@
 <circle class="bal" cx="49.00" cy="208.00" r="2"/>
 <text class="sm" x="49.00" y="208.70" text-anchor="middle" font-weight="bold">10</text>
 <circle cx="49.00" cy="178.00" r="0.35" fill="#000"/>
-<line class="d" x1="195.00" y1="178.00" x2="195.00" y2="208.00"/>
-<circle class="bal" cx="195.00" cy="208.00" r="2"/>
-<text class="sm" x="195.00" y="208.70" text-anchor="middle" font-weight="bold">10</text>
-<circle cx="195.00" cy="178.00" r="0.35" fill="#000"/>
 <text class="lbl" x="119.00" y="224.00" text-anchor="middle">VISTA SUPERIOR — ESC. 1:25</text>
 <rect class="t" x="333" y="18" width="75" height="62" rx="1" stroke-dasharray="2 1"/>
 <rect class="vf" x="351.00" y="60.00" width="40.00" height="4.00"/>
@@ -941,7 +723,7 @@
 <text class="sm" x="237.00" y="199.10" text-anchor="middle">10</text>
 <text class="sm" x="242.00" y="199.10" text-anchor="start">Caixa equipo 600×350×300, tampa na ponta</text>
 <text class="sm" x="314.00" y="199.10" text-anchor="start">Chapa alum. perfurada 2 mm Ø10</text>
-<text class="sm" x="383.00" y="199.10" text-anchor="middle">2</text>
+<text class="sm" x="383.00" y="199.10" text-anchor="middle">1</text>
 <rect x="233" y="200.59999999999994" width="156" height="4.6" fill="none" stroke="#000" stroke-width="0.15"/>
 <text class="sm" x="237.00" y="203.70" text-anchor="middle">11</text>
 <text class="sm" x="242.00" y="203.70" text-anchor="start">Mão-francesa base mastro 150×150</text>
@@ -949,7 +731,7 @@
 <text class="sm" x="383.00" y="203.70" text-anchor="middle">4</text>
 <rect x="233" y="205.19999999999993" width="156" height="4.6" fill="none" stroke="#000" stroke-width="0.15"/>
 <text class="sm" x="237.00" y="208.30" text-anchor="middle">12</text>
-<text class="sm" x="242.00" y="208.30" text-anchor="start">Lança c/ cotovelo 1150+700, manopla T 500</text>
+<text class="sm" x="242.00" y="208.30" text-anchor="start">Lança 1500 + manopla T 500 c/ pegas</text>
 <text class="sm" x="314.00" y="208.30" text-anchor="start">Tubo alum. Ø38×3</text>
 <text class="sm" x="383.00" y="208.30" text-anchor="middle">1</text>
 <rect x="233" y="209.79999999999993" width="156" height="4.6" fill="none" stroke="#000" stroke-width="0.15"/>
@@ -964,24 +746,24 @@
 <text class="sm" x="383.00" y="217.50" text-anchor="middle">1 cj</text>
 <rect x="233" y="218.99999999999991" width="156" height="4.6" fill="none" stroke="#000" stroke-width="0.15"/>
 <text class="sm" x="237.00" y="222.10" text-anchor="middle">15</text>
-<text class="sm" x="242.00" y="222.10" text-anchor="start">Viga porta-caixa: tras. 1730 / diant. 1180</text>
+<text class="sm" x="242.00" y="222.10" text-anchor="start">Viga porta-caixa traseira 1730</text>
 <text class="sm" x="314.00" y="222.10" text-anchor="start">Tubo alum. 50×50×3</text>
-<text class="sm" x="383.00" y="222.10" text-anchor="middle">2</text>
+<text class="sm" x="383.00" y="222.10" text-anchor="middle">1</text>
 <rect x="233" y="223.5999999999999" width="156" height="4.6" fill="none" stroke="#000" stroke-width="0.15"/>
 <text class="sm" x="237.00" y="226.70" text-anchor="middle">16</text>
-<text class="sm" x="242.00" y="226.70" text-anchor="start">Tirante viga–mastro: 1120 / 630</text>
+<text class="sm" x="242.00" y="226.70" text-anchor="start">Tirante viga–mastro 1120</text>
 <text class="sm" x="314.00" y="226.70" text-anchor="start">Tubo alum. 30×30×3</text>
-<text class="sm" x="383.00" y="226.70" text-anchor="middle">2</text>
+<text class="sm" x="383.00" y="226.70" text-anchor="middle">1</text>
 <line class="t" x1="241" y1="150" x2="241" y2="228.1999999999999"/>
 <line class="t" x1="313" y1="150" x2="313" y2="228.1999999999999"/>
 <line class="t" x1="377" y1="150" x2="377" y2="228.1999999999999"/>
 <text class="lbl" x="16" y="233.00">NOTAS</text>
 <text class="sm" x="16" y="237.00">1. Cotas em mm. Medidas ESTIMADAS a partir de fotografia — conferir com os caiaques reais (boca, comprimento, peso) antes de cortar material.</text>
-<text class="sm" x="16" y="240.40">2. Capacidade: 6 caiaques (3 níveis × 2 lados), até 5,2 m e 30 kg cada + 2 caixas de equipo (~25 kg cada). Carga de projeto: 250 kg.</text>
+<text class="sm" x="16" y="240.40">2. Capacidade: 6 caiaques (3 níveis × 2 lados), até 5,2 m e 30 kg cada + 1 caixa de equipo (~25 kg). Carga de projeto: 250 kg.</text>
 <text class="sm" x="16" y="243.80">3. Estrutura em alumínio 6061-T6 soldado TIG. Ambiente marinho: fixadores inox A4 isolados com arruelas de nylon (evita corrosão galvânica alumínio × inox).</text>
-<text class="sm" x="16" y="247.20">4. Rodas balão de baixa pressão (~8–12 psi) para areia fofa. Eixo dianteiro giratório com batente ±35°; lança com cotovelo, articulada em pino Ø16, passa por baixo da caixa dianteira.</text>
-<text class="sm" x="16" y="250.60">5. 2 caixas de equipo (63 L cada) entre os cascos, na frente e atrás, na altura do caiaque de baixo. Chapa perfurada Ø10 p/ drenar; tampa articulada na ponta externa.</text>
-<text class="sm" x="16" y="254.00">6. Carregar de baixo para cima e descarregar de cima para baixo, alternando lados. Caixas são opcionais: sem elas, equipo vai dentro do caiaque.</text>
+<text class="sm" x="16" y="247.20">4. Rodas balão de baixa pressão (~8–12 psi) para areia fofa. Eixo dianteiro giratório com batente ±35°; lança reta articulada em pino Ø16 (sobe/desce com o terreno).</text>
+<text class="sm" x="16" y="250.60">5. 1 caixa de equipo (63 L) atrás, entre os cascos, na altura do caiaque de baixo. Chapa perfurada Ø10 p/ drenar; tampa articulada na ponta externa.</text>
+<text class="sm" x="16" y="254.00">6. Carregar de baixo para cima e descarregar de cima para baixo, alternando lados. Caixa é opcional: sem ela, equipo vai dentro do caiaque.</text>
 <text class="sm" x="16" y="257.40">7. Travessas a 460 / 940 / 1420 do solo (face superior), 200 mm mais baixas que a rev. 0. Folga travessa × pneu = 20 mm; casco × travessa de cima ≈ 50 mm.</text>
 <line class="v" x1="233" y1="234" x2="243" y2="234"/><text class="sm" x="245" y="234.7">contorno visível</text>
 <line class="ph" x1="273" y1="234" x2="283" y2="234"/><text class="sm" x="285" y="234.7">caiaque / posição alternativa (referência)</text>
@@ -1002,7 +784,7 @@
 <text font-size="1.7" x="325" y="268" fill="#555">UNIDADE</text>
 <text class="tb" x="325" y="273" font-weight="bold">mm</text>
 <text font-size="1.7" x="370" y="268" fill="#555">REVISÃO</text>
-<text class="tb" x="370" y="273" font-weight="bold">1 — caixas nas pontas</text>
+<text class="tb" x="370" y="273" font-weight="bold">2 — 1 caixa traseira</text>
 <text font-size="1.7" x="235" y="279" fill="#555">DATA</text>
 <text class="tb" x="235" y="284" font-weight="bold">14/10/2026</text>
 <text font-size="1.7" x="280" y="279" fill="#555">DESENHO</text>

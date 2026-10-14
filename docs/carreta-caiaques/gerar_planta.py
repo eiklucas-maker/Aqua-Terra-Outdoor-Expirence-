@@ -64,11 +64,11 @@ CHW = 200           # meia-largura do chassi (400 total, livra as rodas dianteir
 WB = (200, 1400)    # eixos traseiro / dianteiro
 RW = 200            # raio roda (Ø400)
 CH = (275, 325)     # tubo chassi 50x50
-BOXES = ((-1600, -1000), (2050, 2650))   # caixas de equipo: traseira / dianteira (x1,x2)
+BOXES = ((-1600, -1000),)   # caixa de equipo traseira (x1,x2)
 BZ = (480, 780)     # caixas na altura do caiaque de baixo
 BHW = 175           # meia-largura das caixas (350)
-BEAMS = ((-1650, 80), (1520, 2700))      # vigas porta-caixa, z 430..480
-TIES = (((80, 860), (-950, 480)), ((1520, 860), (2000, 480)))  # tirantes
+BEAMS = ((-1650, 80),)      # viga porta-caixa, z 430..480
+TIES = (((80, 860), (-950, 480)),)  # tirante
 MAST_X = ((80, 120), (1480, 1520))
 MAST_TOP = 1460
 TIERS = (440, 920, 1400)      # eixo das travessas 40x40
@@ -77,7 +77,7 @@ KY = 400            # centro do caiaque em y (±)
 KW, KH = 560, 330   # boca / altura do caiaque
 KX = (-2100, 2700)  # caiaque 4,8 m (fantasma)
 PIV = (1650, 230)   # pino da lança
-ELBOW = (2800, 230) # cotovelo da lança (passa por baixo da caixa dianteira)
+ELBOW = PIV        # lança reta
 HANDLE = (3000, 900)
 ZTOP = 1830         # topo dos caiaques (para cotas)
 
@@ -158,7 +158,6 @@ dim_h(px(WB[0]), px(WB[1]), G1 + 11, "1200 (entre-eixos)", pz(RW), pz(RW))
 dim_h(px(L), px(HANDLE[0]), G1 + 6, "1400 (lança)", pz(CH[0]), pz(HANDLE[1]))
 dim_h(px(KX[0]), px(KX[1]), pz(ZTOP) - 4, "caiaque máx. 5200 (ref. 4800)", pz(1000), pz(980))
 dim_h(px(BOXES[0][0]), px(BOXES[0][1]), G1 + 6, "600", pz(430), pz(430))
-dim_h(px(BOXES[1][0]), px(BOXES[1][1]), pz(BZ[0]) + 6, "600", pz(430), pz(430))
 dim_h(px(BEAMS[0][0]), px(0), G1 + 11, "1650 (balanço viga)", pz(430), G1)
 dim_v(pz(BZ[0]), pz(BZ[1]), px(BOXES[0][0]) - 2.5, "300", px(BOXES[0][0]), px(BOXES[0][0]))
 dim_v(G1, pz(BZ[0]), px(-1750), "480", None, None)
@@ -181,13 +180,11 @@ balloon(px(800), pz(300), 1, px(800), G1 + 17)
 balloon(px(1600) - 1, pz(245) + 0.3, 3, px(1750), pz(-150) + 0)
 balloon(px(100), pz(1150), 5, px(400), pz(1650))
 balloon(px(800), pz(MAST_TOP - 20), 6, px(1150), pz(1650))
-balloon(px(2900), pz(565), 12, px(3000), pz(400))
+balloon(px(2400), pz(602), 12, px(2400), pz(250))
 balloon(px(195), pz(CH[1]+40), 11, px(500), pz(380))
 balloon(px(-1300), pz(650), 10, px(-1300), pz(1150))
-balloon(px(2350), pz(650), 10, px(2350), pz(1150))
 balloon(px(-1500), pz(455), 15, px(-1400), pz(250))
 balloon(px(-450), pz(660), 16, px(-800), pz(1050))
-balloon(px(1760), pz(670), 16, px(1900), pz(1080))
 
 a(f'<text class="lbl" x="{px(450):.2f}" y="{G1+29:.2f}" text-anchor="middle">VISTA LATERAL — ESC. 1:25</text>')
 
@@ -323,7 +320,6 @@ dim_v(ty(BHW), ty(-BHW), px(BOXES[0][0]) - 3, "350", px(BOXES[0][0]), px(BOXES[0
 dim_h(px(MAST_X[0][0]), px(MAST_X[1][1]), ty(-BAR_HALF) + 5, "1440 (vão entre berços)", ty(-BAR_HALF), ty(-BAR_HALF))
 balloon(px(1400), ty(-60), 3, px(1900), ty(-650))
 balloon(px(-1300), ty(100), 10, px(-1300), ty(-650))
-balloon(px(2350), ty(100), 10, px(2350), ty(-650))
 a(f'<text class="lbl" x="{px(450):.2f}" y="{ty(-BAR_HALF)+12:.2f}" text-anchor="middle">VISTA SUPERIOR — ESC. 1:25</text>')
 
 # ======================================================================
@@ -369,13 +365,13 @@ BOM = [
  ("7", "Travessa porta-caiaque 1500 c/ tampas", "Tubo alum. 40×40×3", "6"),
  ("8", "Berço 400×150 (ver Detalhe A)", "Chapa alum. 5 + EVA 30", "12"),
  ("9", "Cinta cam/catraca 25 mm × 3 m", "Poliéster c/ fivela inox", "12"),
- ("10", "Caixa equipo 600×350×300, tampa na ponta", "Chapa alum. perfurada 2 mm Ø10", "2"),
+ ("10", "Caixa equipo 600×350×300, tampa na ponta", "Chapa alum. perfurada 2 mm Ø10", "1"),
  ("11", "Mão-francesa base mastro 150×150", "Chapa alum. 6 mm", "4"),
- ("12", "Lança c/ cotovelo 1150+700, manopla T 500", "Tubo alum. Ø38×3", "1"),
+ ("12", "Lança 1500 + manopla T 500 c/ pegas", "Tubo alum. Ø38×3", "1"),
  ("13", "Mão-francesa travessa 90×90", "Chapa alum. 5 mm", "12"),
  ("14", "Fixadores M8/M10 autotravantes", "Inox A4 + arruelas nylon", "1 cj"),
- ("15", "Viga porta-caixa: tras. 1730 / diant. 1180", "Tubo alum. 50×50×3", "2"),
- ("16", "Tirante viga–mastro: 1120 / 630", "Tubo alum. 30×30×3", "2"),
+ ("15", "Viga porta-caixa traseira 1730", "Tubo alum. 50×50×3", "1"),
+ ("16", "Tirante viga–mastro 1120", "Tubo alum. 30×30×3", "1"),
 ]
 BX, BY = 233, 150
 cw = (8, 72, 64, 12)
@@ -406,11 +402,11 @@ for w in cw[:-1]:
 NOTES = [
  "NOTAS",
  "1. Cotas em mm. Medidas ESTIMADAS a partir de fotografia — conferir com os caiaques reais (boca, comprimento, peso) antes de cortar material.",
- "2. Capacidade: 6 caiaques (3 níveis × 2 lados), até 5,2 m e 30 kg cada + 2 caixas de equipo (~25 kg cada). Carga de projeto: 250 kg.",
+ "2. Capacidade: 6 caiaques (3 níveis × 2 lados), até 5,2 m e 30 kg cada + 1 caixa de equipo (~25 kg). Carga de projeto: 250 kg.",
  "3. Estrutura em alumínio 6061-T6 soldado TIG. Ambiente marinho: fixadores inox A4 isolados com arruelas de nylon (evita corrosão galvânica alumínio × inox).",
- "4. Rodas balão de baixa pressão (~8–12 psi) para areia fofa. Eixo dianteiro giratório com batente ±35°; lança com cotovelo, articulada em pino Ø16, passa por baixo da caixa dianteira.",
- "5. 2 caixas de equipo (63 L cada) entre os cascos, na frente e atrás, na altura do caiaque de baixo. Chapa perfurada Ø10 p/ drenar; tampa articulada na ponta externa.",
- "6. Carregar de baixo para cima e descarregar de cima para baixo, alternando lados. Caixas são opcionais: sem elas, equipo vai dentro do caiaque.",
+ "4. Rodas balão de baixa pressão (~8–12 psi) para areia fofa. Eixo dianteiro giratório com batente ±35°; lança reta articulada em pino Ø16 (sobe/desce com o terreno).",
+ "5. 1 caixa de equipo (63 L) atrás, entre os cascos, na altura do caiaque de baixo. Chapa perfurada Ø10 p/ drenar; tampa articulada na ponta externa.",
+ "6. Carregar de baixo para cima e descarregar de cima para baixo, alternando lados. Caixa é opcional: sem ela, equipo vai dentro do caiaque.",
  "7. Travessas a 460 / 940 / 1420 do solo (face superior), 200 mm mais baixas que a rev. 0. Folga travessa × pneu = 20 mm; casco × travessa de cima ≈ 50 mm.",
 ]
 ny = 233
@@ -437,7 +433,7 @@ for xx in (TBX + 45, TBX + 90, TBX + 135):
     a(f'<line class="t" x1="{xx}" y1="{TBY+13}" x2="{xx}" y2="{TBY+TBH}"/>')
 a(f'<text x="{TBX+3}" y="{TBY+6.5}" font-size="4.6" font-weight="bold">CARRETA PORTA-CAIAQUES — 6 UNIDADES</text>')
 a(f'<text class="tb" x="{TBX+3}" y="{TBY+10.8}">Aqua Terra Paraty · sea kayak &amp; trekking · Paraty/RJ</text>')
-cells = [("ESCALA", "1:25 (Det. A 1:10)"), ("FORMATO", "A3 · 1º diedro"), ("UNIDADE", "mm"), ("REVISÃO", "1 — caixas nas pontas"),
+cells = [("ESCALA", "1:25 (Det. A 1:10)"), ("FORMATO", "A3 · 1º diedro"), ("UNIDADE", "mm"), ("REVISÃO", "2 — 1 caixa traseira"),
          ("DATA", "14/10/2026"), ("DESENHO", "Claude / Lucas"), ("MATERIAL", "Alum. 6061-T6"), ("FOLHA", "1 / 1")]
 for i, (k, v) in enumerate(cells):
     cx = TBX + (i % 4) * 45 + 2
