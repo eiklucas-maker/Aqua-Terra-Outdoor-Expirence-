@@ -61,50 +61,76 @@ window.buildScene = function (view) {
     m.castShadow = true; scene.add(m); return m;
   }
 
-  // rodas balão Ø400 × 150
-  for (const x of [0.2, 1.4]) for (const s of [-1, 1]) {
+  // rodas balão 16x6.50-8 (Ø406 × 165)
+  for (const x of [0.2, 1.36]) for (const s of [-1, 1]) {
     const tire = new THREE.Mesh(new THREE.TorusGeometry(0.135, 0.068, 20, 40), rubber);
-    tire.position.set(x, 0.2, s * 0.55); tire.scale.set(1, 1, 1.1); tire.castShadow = true; scene.add(tire);
-    const hub = new THREE.Mesh(new THREE.CylinderGeometry(0.1, 0.1, 0.12, 24), alu);
+    tire.position.set(x, 0.2, s * 0.55); tire.scale.set(1, 1, 1.2); tire.castShadow = true; scene.add(tire);
+    const hub = new THREE.Mesh(new THREE.CylinderGeometry(0.1, 0.1, 0.075, 24), alu);
     hub.rotation.x = Math.PI / 2; hub.position.set(x, 0.2, s * 0.55); scene.add(hub);
   }
-  rod([0.2, 0.2, -0.5], [0.2, 0.2, 0.5], 0.0125, alu);
-  rod([1.4, 0.2, -0.5], [1.4, 0.2, 0.5], 0.0125, alu);
-  // suportes de eixo e prato giratório
-  for (const s of [-1, 1]) box(0.18, 0.22, 0.2, 0.275, s * 0.2 - 0.02, s * 0.2 + 0.02, alu);
-  const turn = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.15, 0.03, 32), alu);
-  turn.position.set(1.4, 0.26, 0); scene.add(turn);
-  box(1.38, 1.42, 0.2, 0.245, -0.45, 0.45, alu);
+  // eixos P15, vigas de eixo P3/P4 com mancais C3/C4
+  rod([0.2, 0.2, -0.625], [0.2, 0.2, 0.625], 0.0125, alu);
+  rod([1.36, 0.2, -0.625], [1.36, 0.2, 0.625], 0.0125, alu);
+  box(0.175, 0.225, 0.225, 0.275, -0.43, 0.43, alu);
+  box(1.375, 1.425, 0.205, 0.255, -0.43, 0.43, alu);
+  for (const s of [-1, 1]) {
+    box(0.16, 0.24, 0.16, 0.275, s * 0.434 - 0.004, s * 0.434 + 0.004, alu);
+    box(1.32, 1.425, 0.16, 0.255, s * 0.434 - 0.004, s * 0.434 + 0.004, alu);
+  }
+  // direção: disco C6, PEAD, chapa C5, braço P5, garfo C7
+  const c6 = new THREE.Mesh(new THREE.CylinderGeometry(0.125, 0.125, 0.014, 40), alu); c6.position.set(1.4, 0.262, 0); scene.add(c6);
+  const pead = new THREE.Mesh(new THREE.CylinderGeometry(0.125, 0.125, 0.008, 40), new THREE.MeshStandardMaterial({ color: 0xf4f4ee, roughness: 0.6 }));
+  pead.position.set(1.4, 0.265, 0); scene.add(pead);
+  box(1.25, 1.55, 0.269, 0.275, -0.2, 0.2, alu);
+  box(1.425, 1.625, 0.205, 0.255, -0.025, 0.025, alu);
+  for (const s of [-1, 1]) box(1.595, 1.695, 0.2, 0.26, s * 0.029 - 0.004, s * 0.029 + 0.004, alu);
 
-  // chassi espinha 400
+  // chassi espinha 400 (P1, P2) + chapas base C1
   for (const s of [-1, 1]) box(0, 1.6, 0.275, 0.325, s * 0.175 - 0.025, s * 0.175 + 0.025, alu);
   for (const x of [0.025, 0.8, 1.575]) box(x - 0.025, x + 0.025, 0.275, 0.325, -0.15, 0.15, alu);
+  box(0, 0.3, 0.325, 0.333, -0.2, 0.2, alu);
+  box(1.3, 1.6, 0.325, 0.333, -0.2, 0.2, alu);
 
-  // mastros duplos + viga superior
-  for (const x of [0.1, 1.5]) for (const s of [-1, 1]) box(x - 0.02, x + 0.02, 0.325, 1.46, s * 0.06 - 0.02, s * 0.06 + 0.02, alu);
-  box(0.12, 1.48, 1.42, 1.46, -0.02, 0.02, alu);
-  // travessas, berços
-  const TIERS = [0.44, 0.92, 1.40];
+  // mastros P9 100×50, viga superior P6, mãos-francesas C2
+  for (const x of [0.1, 1.5]) box(x - 0.05, x + 0.05, 0.333, 1.503, -0.025, 0.025, alu);
+  box(0.15, 1.45, 1.45, 1.5, -0.025, 0.025, alu);
+  function gusset(pts, zc, axis) {
+    const sh = new THREE.Shape(); sh.moveTo(pts[0][0], pts[0][1]); sh.lineTo(pts[1][0], pts[1][1]); sh.lineTo(pts[2][0], pts[2][1]);
+    const g = new THREE.ExtrudeGeometry(sh, { depth: 0.006, bevelEnabled: false });
+    const m = new THREE.Mesh(g, alu); m.castShadow = true;
+    if (axis === 'x') { m.position.set(0, 0, zc - 0.003); }
+    else { m.rotation.y = -Math.PI / 2; m.position.set(zc - 0.003, 0, 0); }
+    scene.add(m);
+  }
+  gusset([[0.15, 0.333], [0.3, 0.333], [0.15, 0.483]], 0, 'x');
+  gusset([[1.45, 0.333], [1.3, 0.333], [1.45, 0.483]], 0, 'x');
+  for (const x of [0.1, 1.5]) for (const s of [-1, 1])
+    gusset([[s * 0.025, 0.333], [s * 0.175, 0.333], [s * 0.025, 0.483]], x, 'y');
+  // travessas P10 passantes + berços C9/K6
+  const TIERS = [0.48, 0.96, 1.44];
   for (const c of TIERS) for (const x of [0.1, 1.5]) {
     box(x - 0.02, x + 0.02, c - 0.02, c + 0.02, -0.75, 0.75, alu);
     for (const s of [-1, 1]) {
-      box(x - 0.075, x + 0.075, c + 0.02, c + 0.07, s * 0.4 - 0.2, s * 0.4 + 0.2, eva);
+      box(x - 0.075, x + 0.075, c + 0.02, c + 0.025, s * 0.4 - 0.2, s * 0.4 + 0.2, alu);
+      box(x - 0.075, x + 0.075, c + 0.025, c + 0.07, s * 0.4 - 0.2, s * 0.4 + 0.2, eva);
       box(x - 0.022, x + 0.022, c - 0.022, c + 0.022, s * 0.75, s * 0.758, black);
     }
   }
 
-  // viga porta-caixa + tirante + caixa traseira
-  box(-1.65, 0.08, 0.43, 0.48, -0.025, 0.025, alu);
-  rod([0.08, 0.86, 0], [-0.95, 0.48, 0], 0.015, alu);
+  // viga porta-caixa P7 + calço P8 + tirante P11 + caixa
+  box(-1.65, 0.05, 0.405, 0.455, -0.025, 0.025, alu);
+  box(0, 0.05, 0.333, 0.405, -0.025, 0.025, alu);
+  rod([0.05, 0.9, 0], [-0.95, 0.47, 0], 0.015, alu);
   const perfC = document.createElement('canvas'); perfC.width = 256; perfC.height = 128;
   const pc = perfC.getContext('2d'); pc.fillStyle = '#c8cfd5'; pc.fillRect(0, 0, 256, 128);
   pc.fillStyle = '#454b50';
   for (let x = 8; x < 256; x += 16) for (let y = 8; y < 128; y += 16) { pc.beginPath(); pc.arc(x, y, 4, 0, 7); pc.fill(); }
   const perfT = new THREE.CanvasTexture(perfC); perfT.colorSpace = THREE.SRGBColorSpace;
   const perfM = new THREE.MeshStandardMaterial({ map: perfT, metalness: 0.2, roughness: 0.5 });
+  for (const x of [-1.5625, -1.0375]) box(x - 0.0125, x + 0.0125, 0.455, 0.48, -0.175, 0.175, alu);
   box(-1.6, -1.0, 0.48, 0.78, -0.175, 0.175, perfM);
-  box(-1.61, -0.99, 0.78, 0.795, -0.18, 0.18, alu);      // tampa
-  box(-1.62, -1.6, 0.74, 0.79, -0.04, 0.04, black);       // dobradiça/trinco
+  box(-1.605, -0.995, 0.76, 0.782, -0.18, 0.18, perfM);  // tampa
+  box(-1.612, -1.6, 0.74, 0.785, -0.12, 0.12, black);     // dobradiça
 
   // caiaques 4,8 m
   function kayak(color, cx, yBottom, z) {
@@ -138,13 +164,13 @@ window.buildScene = function (view) {
   }
   const colors = [[0xd8262b, 0xf2c014], [0xf07a1a, 0x1f6fd1], [0xe8eef2, 0x2aa35a]];
   TIERS.forEach((c, i) => {
-    kayak(colors[i][0], 0.3, c + 0.055, -0.4);
-    kayak(colors[i][1], 0.3, c + 0.055, 0.4);
+    kayak(colors[i][0], 0.3, c + 0.06, -0.4);
+    kayak(colors[i][1], 0.3, c + 0.06, 0.4);
   });
 
   // lança reta + manopla T
-  rod([1.5, 0.23, 0], [1.65, 0.23, 0], 0.02, alu);
-  rod([1.65, 0.23, 0], [3.0, 0.9, 0], 0.019, alu);
+  const bucha = new THREE.Mesh(new THREE.CylinderGeometry(0.015, 0.015, 0.048, 20), alu); bucha.rotation.x = Math.PI / 2; bucha.position.set(1.665, 0.23, 0); scene.add(bucha);
+  rod([1.665, 0.23, 0], [3.0, 0.9, 0], 0.019, alu);
   rod([3.0, 0.9, -0.25], [3.0, 0.9, 0.25], 0.019, alu);
   for (const s of [-1, 1]) rod([3.0, 0.9, s * 0.12], [3.0, 0.9, s * 0.25], 0.024, black);
 

@@ -13,7 +13,7 @@ const dir = __dirname;
     await p.evaluate(v => {
       const d = document.createElement('div');
       d.style = 'position:fixed;left:24px;bottom:20px;font:600 22px DejaVu Sans,Arial;color:#123;background:rgba(255,255,255,.75);padding:8px 14px;border-radius:6px';
-      d.textContent = 'Carreta porta-caiaques · rev. 2 · ilustração com medidas da planta (pessoa 1,75 m p/ escala)';
+      d.textContent = 'Carreta porta-caiaques · rev. 3 · ilustração com medidas da planta de fabricação (pessoa 1,75 m p/ escala)';
       document.body.appendChild(d);
     }, view);
     await p.screenshot({ path: `${dir}/ilustracao-${view}.png` });

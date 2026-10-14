@@ -1,0 +1,358 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="420mm" height="297mm" viewBox="0 0 420 297">
+<style>
+ .v{fill:none;stroke:#000;stroke-width:0.45;stroke-linejoin:round}
+ .vf{fill:#e9eef2;stroke:#000;stroke-width:0.45;stroke-linejoin:round}
+ .pl{fill:#c9d4de;stroke:#000;stroke-width:0.4;stroke-linejoin:round}
+ .wf{fill:#fff;stroke:#000;stroke-width:0.35}
+ .wh{fill:#3a3a3a;stroke:#000;stroke-width:0.45}
+ .t{fill:none;stroke:#000;stroke-width:0.18}
+ .h{fill:none;stroke:#000;stroke-width:0.25;stroke-dasharray:1.2 0.8}
+ .ph{fill:none;stroke:#1f5fa8;stroke-width:0.25;stroke-dasharray:4 0.8 0.8 0.8}
+ .c{fill:none;stroke:#a00;stroke-width:0.15;stroke-dasharray:5 1 1 1}
+ .d{fill:none;stroke:#000;stroke-width:0.15}
+ .eva{fill:#f2b84b;stroke:#000;stroke-width:0.3}
+ .perf{fill:#fff;stroke:#000;stroke-width:0.1}
+ .hole{fill:#fff;stroke:#000;stroke-width:0.3}
+ text{font-family:'DejaVu Sans',Arial,sans-serif;fill:#000}
+ .dt{font-size:2.1px}
+ .lbl{font-size:3.1px;font-weight:bold}
+ .sm{font-size:1.9px}
+ .xs{font-size:1.6px}
+ .tb{font-size:2.3px}
+ .bal{fill:#fff;stroke:#000;stroke-width:0.22}
+ .bt{font-size:1.55px;font-weight:bold}
+</style>
+<defs>
+ <marker id="ar" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="2" markerHeight="2" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+  <path d="M0,1.5 L10,5 L0,8.5 z" fill="#000"/></marker>
+ <pattern id="furos" width="1.5" height="1.3" patternUnits="userSpaceOnUse">
+  <rect width="1.5" height="1.3" fill="#e9eef2"/><circle cx="0.75" cy="0.65" r="0.42" fill="#fff" stroke="#888" stroke-width="0.05"/></pattern>
+</defs>
+
+<rect x="0" y="0" width="420" height="297" fill="#fff"/>
+<rect x="10" y="10" width="400" height="277" fill="none" stroke="#000" stroke-width="0.7"/>
+<rect class="vf" x="190.00" y="91.50" width="20.00" height="5.00" />
+<polyline class="t" points="210.00,95.50 210.00,93.00 211.00,93.60 209.00,94.40 210.00,95.00 210.00,92.50"/>
+<rect class="pl" x="190.00" y="90.70" width="22.00" height="0.80" />
+<rect class="vf" x="195.00" y="24.00" width="10.00" height="66.70" />
+<polyline class="t" points="194.00,24.00 199.00,24.00 199.60,23.00 200.40,25.00 201.00,24.00 206.00,24.00"/>
+<rect class="vf" x="198.00" y="74.00" width="4.00" height="4.00" />
+<line class="t" x1="198.00" y1="78.00" x2="202.00" y2="74.00" />
+<rect class="vf" x="198.00" y="26.00" width="4.00" height="4.00" />
+<line class="t" x1="198.00" y1="30.00" x2="202.00" y2="26.00" />
+<polygon class="vf" points="205.00,90.70 212.00,90.70 205.00,83.70" />
+<rect class="vf" x="190.00" y="83.50" width="5.00" height="7.20" />
+<rect class="vf" x="25.00" y="78.50" width="170.00" height="5.00" />
+<polygon class="vf" points="195.00,35.64 195.00,32.36 91.31,78.50 98.69,78.50" />
+<rect class="vf" x="30.00" y="46.00" width="60.00" height="30.00" style="fill:url(#furos)"/>
+<rect class="pl" x="29.50" y="45.80" width="61.00" height="2.20" />
+<rect class="v" x="30.00" y="48.00" width="2.50" height="28.00" />
+<rect class="v" x="87.50" y="48.00" width="2.50" height="28.00" />
+<rect class="vf" x="32.50" y="76.00" width="2.50" height="2.50" />
+<rect class="wf" x="32.70" y="76.20" width="2.10" height="2.10" />
+<rect class="vf" x="85.00" y="76.00" width="2.50" height="2.50" />
+<rect class="wf" x="85.20" y="76.20" width="2.10" height="2.10" />
+<line class="h" x1="33.80" y1="84.50" x2="33.80" y2="74.80" />
+<rect class="wh" x="33.10" y="83.50" width="1.40" height="1.00" />
+<line class="h" x1="86.20" y1="84.50" x2="86.20" y2="74.80" />
+<rect class="wh" x="85.50" y="83.50" width="1.40" height="1.00" />
+<circle class="wh" cx="29.50" cy="46.50" r="0.80" />
+<rect class="wh" x="90.50" y="47.00" width="1.00" height="4.00" />
+<line class="d" x1="25.00" y1="84.10" x2="25.00" y2="101.60"/>
+<line class="d" x1="33.80" y1="84.10" x2="33.80" y2="101.60"/>
+<line class="d" x1="25.00" y1="100.50" x2="33.80" y2="100.50" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="29.40" y="99.90" text-anchor="middle" >88</text>
+<line class="d" x1="33.80" y1="84.10" x2="33.80" y2="101.60"/>
+<line class="d" x1="86.20" y1="84.10" x2="86.20" y2="101.60"/>
+<line class="d" x1="33.80" y1="100.50" x2="86.20" y2="100.50" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="60.00" y="99.90" text-anchor="middle" >524</text>
+<line class="d" x1="95.00" y1="79.10" x2="95.00" y2="101.60"/>
+<line class="d" x1="195.00" y1="84.10" x2="195.00" y2="101.60"/>
+<line class="d" x1="95.00" y1="100.50" x2="195.00" y2="100.50" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="145.00" y="99.90" text-anchor="middle" >1000</text>
+<line class="d" x1="25.00" y1="84.10" x2="25.00" y2="106.60"/>
+<line class="d" x1="30.00" y1="84.10" x2="30.00" y2="106.60"/>
+<line class="d" x1="25.00" y1="105.50" x2="30.00" y2="105.50" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="27.50" y="104.90" text-anchor="middle" >50</text>
+<line class="d" x1="30.00" y1="84.10" x2="30.00" y2="106.60"/>
+<line class="d" x1="90.00" y1="84.10" x2="90.00" y2="106.60"/>
+<line class="d" x1="30.00" y1="105.50" x2="90.00" y2="105.50" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="60.00" y="104.90" text-anchor="middle" >600 (caixa)</text>
+<line class="d" x1="90.00" y1="84.10" x2="90.00" y2="106.60"/>
+<line class="d" x1="195.00" y1="84.10" x2="195.00" y2="106.60"/>
+<line class="d" x1="90.00" y1="105.50" x2="195.00" y2="105.50" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="142.50" y="104.90" text-anchor="middle" >1050</text>
+<line class="d" x1="25.00" y1="84.10" x2="25.00" y2="111.60"/>
+<line class="d" x1="195.00" y1="84.10" x2="195.00" y2="111.60"/>
+<line class="d" x1="25.00" y1="110.50" x2="195.00" y2="110.50" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="110.00" y="109.90" text-anchor="middle" >1700 (P7)</text>
+<line class="d" x1="189.40" y1="90.70" x2="186.90" y2="90.70"/>
+<line class="d" x1="189.40" y1="83.50" x2="186.90" y2="83.50"/>
+<line class="d" x1="188.00" y1="90.70" x2="188.00" y2="83.50" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="187.40" y="87.10" text-anchor="middle" transform="rotate(-90 187.40 87.10)">72</text>
+<line class="d" x1="24.40" y1="83.50" x2="21.40" y2="83.50"/>
+<line class="d" x1="24.40" y1="78.50" x2="21.40" y2="78.50"/>
+<line class="d" x1="22.50" y1="83.50" x2="22.50" y2="78.50" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="21.90" y="81.00" text-anchor="middle" transform="rotate(-90 21.90 81.00)">50</text>
+<line class="d" x1="29.40" y1="78.50" x2="26.40" y2="78.50"/>
+<line class="d" x1="29.40" y1="76.00" x2="26.40" y2="76.00"/>
+<line class="d" x1="27.50" y1="78.50" x2="27.50" y2="76.00" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="26.90" y="77.25" text-anchor="middle" transform="rotate(-90 26.90 77.25)">25</text>
+<line class="d" x1="29.40" y1="76.00" x2="26.40" y2="76.00"/>
+<line class="d" x1="29.40" y1="46.00" x2="26.40" y2="46.00"/>
+<line class="d" x1="27.50" y1="76.00" x2="27.50" y2="46.00" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="26.90" y="61.00" text-anchor="middle" transform="rotate(-90 26.90 61.00)">300</text>
+<line class="d" x1="205.60" y1="90.70" x2="210.10" y2="90.70"/>
+<line class="d" x1="195.60" y1="34.00" x2="210.10" y2="34.00"/>
+<line class="d" x1="209.00" y1="90.70" x2="209.00" y2="34.00" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="208.40" y="62.35" text-anchor="middle" transform="rotate(-90 208.40 62.35)">567</text>
+<text class="xs" x="120.00" y="73.50" text-anchor="start" >P11 ≈ 1095 (eixo) · α ≈ 24°</text>
+<text class="sm" x="108.00" y="77.80" text-anchor="start" >α</text>
+<line class="t" x1="95.00" y1="78.50" x2="118.00" y2="78.50" />
+<line class="d" x1="150.00" y1="81.00" x2="150.00" y2="86.60"/>
+<circle cx="150.00" cy="81.00" r="0.35" fill="#000"/>
+<circle class="bal" cx="150.00" cy="89.00" r="2.4"/>
+<text class="bt" x="150.00" y="89.55" text-anchor="middle" >P7</text>
+<line class="d" x1="192.50" y1="87.00" x2="185.78" y2="89.24"/>
+<circle cx="192.50" cy="87.00" r="0.35" fill="#000"/>
+<circle class="bal" cx="183.50" cy="90.00" r="2.4"/>
+<text class="bt" x="183.50" y="90.55" text-anchor="middle" >P8</text>
+<line class="d" x1="160.00" y1="64.00" x2="162.24" y2="57.28"/>
+<circle cx="160.00" cy="64.00" r="0.35" fill="#000"/>
+<circle class="bal" cx="163.00" cy="55.00" r="2.4"/>
+<text class="bt" x="163.00" y="55.55" text-anchor="middle" >P11</text>
+<line class="d" x1="33.80" y1="77.30" x2="27.72" y2="81.86"/>
+<circle cx="33.80" cy="77.30" r="0.35" fill="#000"/>
+<circle class="bal" cx="25.80" cy="83.30" r="2.4"/>
+<text class="bt" x="25.80" y="83.85" text-anchor="middle" >P19</text>
+<line class="d" x1="40.00" y1="47.00" x2="37.76" y2="40.28"/>
+<circle cx="40.00" cy="47.00" r="0.35" fill="#000"/>
+<circle class="bal" cx="37.00" cy="38.00" r="2.4"/>
+<text class="bt" x="37.00" y="38.55" text-anchor="middle" >C11</text>
+<line class="d" x1="60.00" y1="64.00" x2="63.34" y2="52.31"/>
+<circle cx="60.00" cy="64.00" r="0.35" fill="#000"/>
+<circle class="bal" cx="64.00" cy="50.00" r="2.4"/>
+<text class="bt" x="64.00" y="50.55" text-anchor="middle" >C10</text>
+<line class="d" x1="88.80" y1="64.00" x2="95.30" y2="55.87"/>
+<circle cx="88.80" cy="64.00" r="0.35" fill="#000"/>
+<circle class="bal" cx="96.80" cy="54.00" r="2.4"/>
+<text class="bt" x="96.80" y="54.55" text-anchor="middle" >P20</text>
+<line class="d" x1="70.00" y1="45.80" x2="74.93" y2="35.95"/>
+<circle cx="70.00" cy="45.80" r="0.35" fill="#000"/>
+<circle class="bal" cx="76.00" cy="33.80" r="2.4"/>
+<text class="bt" x="76.00" y="34.35" text-anchor="middle" >P18</text>
+<line class="d" x1="29.50" y1="46.50" x2="24.94" y2="40.42"/>
+<circle cx="29.50" cy="46.50" r="0.35" fill="#000"/>
+<circle class="bal" cx="23.50" cy="38.50" r="2.4"/>
+<text class="bt" x="23.50" y="39.05" text-anchor="middle" >K11</text>
+<line class="d" x1="86.20" y1="84.00" x2="89.66" y2="88.16"/>
+<circle cx="86.20" cy="84.00" r="0.35" fill="#000"/>
+<circle class="bal" cx="91.20" cy="90.00" r="2.4"/>
+<text class="bt" x="91.20" y="90.55" text-anchor="middle" >K8</text>
+<line class="d" x1="200.00" y1="44.00" x2="205.85" y2="41.07"/>
+<circle cx="200.00" cy="44.00" r="0.35" fill="#000"/>
+<circle class="bal" cx="208.00" cy="40.00" r="2.4"/>
+<text class="bt" x="208.00" y="40.55" text-anchor="middle" >P9</text>
+<text class="lbl" x="115.00" y="117.50" text-anchor="middle" >CONJUNTO PORTA-CAIXA — VISTA LATERAL — 1:10</text>
+<polygon class="vf" points="50.00,247.50 110.00,247.50 110.00,217.50 140.00,217.50 140.00,182.50 110.00,182.50 110.00,152.50 50.00,152.50 50.00,182.50 20.00,182.50 20.00,217.50 50.00,217.50" style="fill:url(#furos)"/>
+<line class="h" x1="50.00" y1="217.50" x2="50.00" y2="182.50" />
+<line class="h" x1="110.00" y1="217.50" x2="110.00" y2="182.50" />
+<line class="h" x1="50.00" y1="217.50" x2="110.00" y2="217.50" />
+<circle class="hole" cx="50.00" cy="217.50" r="0.40" />
+<circle class="hole" cx="110.00" cy="217.50" r="0.40" />
+<line class="h" x1="50.00" y1="182.50" x2="110.00" y2="182.50" />
+<circle class="hole" cx="50.00" cy="182.50" r="0.40" />
+<circle class="hole" cx="110.00" cy="182.50" r="0.40" />
+<rect x="71.00" y="198.00" width="18" height="3" fill="#fff" opacity="0.85"/>
+<text class="xs" x="80.00" y="200.50" text-anchor="middle" >FUNDO 600×350</text>
+<rect x="71.00" y="165.50" width="18" height="3" fill="#fff" opacity="0.85"/>
+<text class="xs" x="80.00" y="168.00" text-anchor="middle" >LATERAL</text>
+<rect x="71.00" y="230.50" width="18" height="3" fill="#fff" opacity="0.85"/>
+<text class="xs" x="80.00" y="233.00" text-anchor="middle" >LATERAL</text>
+<rect x="26.00" y="198.00" width="18" height="3" fill="#fff" opacity="0.85"/>
+<text class="xs" x="35.00" y="200.50" text-anchor="middle" >TESTEIRA</text>
+<rect x="116.00" y="198.00" width="18" height="3" fill="#fff" opacity="0.85"/>
+<text class="xs" x="125.00" y="200.50" text-anchor="middle" >TESTEIRA</text>
+<line class="d" x1="20.00" y1="181.90" x2="20.00" y2="144.40"/>
+<line class="d" x1="140.00" y1="181.90" x2="140.00" y2="144.40"/>
+<line class="d" x1="20.00" y1="145.50" x2="140.00" y2="145.50" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="80.00" y="144.90" text-anchor="middle" >1200</text>
+<line class="d" x1="20.00" y1="181.90" x2="20.00" y2="148.90"/>
+<line class="d" x1="50.00" y1="151.90" x2="50.00" y2="148.90"/>
+<line class="d" x1="20.00" y1="150.00" x2="50.00" y2="150.00" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="35.00" y="149.40" text-anchor="middle" >300</text>
+<line class="d" x1="50.00" y1="151.90" x2="50.00" y2="148.90"/>
+<line class="d" x1="110.00" y1="151.90" x2="110.00" y2="148.90"/>
+<line class="d" x1="50.00" y1="150.00" x2="110.00" y2="150.00" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="80.00" y="149.40" text-anchor="middle" >600</text>
+<line class="d" x1="110.00" y1="151.90" x2="110.00" y2="148.90"/>
+<line class="d" x1="140.00" y1="181.90" x2="140.00" y2="148.90"/>
+<line class="d" x1="110.00" y1="150.00" x2="140.00" y2="150.00" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="125.00" y="149.40" text-anchor="middle" >300</text>
+<line class="d" x1="110.60" y1="247.50" x2="148.10" y2="247.50"/>
+<line class="d" x1="110.60" y1="152.50" x2="148.10" y2="152.50"/>
+<line class="d" x1="147.00" y1="247.50" x2="147.00" y2="152.50" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="146.40" y="200.00" text-anchor="middle" transform="rotate(-90 146.40 200.00)">950</text>
+<line class="d" x1="110.60" y1="247.50" x2="143.60" y2="247.50"/>
+<line class="d" x1="140.60" y1="217.50" x2="143.60" y2="217.50"/>
+<line class="d" x1="142.50" y1="247.50" x2="142.50" y2="217.50" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="141.90" y="232.50" text-anchor="middle" transform="rotate(-90 141.90 232.50)">300</text>
+<line class="d" x1="140.60" y1="217.50" x2="143.60" y2="217.50"/>
+<line class="d" x1="140.60" y1="182.50" x2="143.60" y2="182.50"/>
+<line class="d" x1="142.50" y1="217.50" x2="142.50" y2="182.50" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="141.90" y="200.00" text-anchor="middle" transform="rotate(-90 141.90 200.00)">350</text>
+<line class="d" x1="140.60" y1="182.50" x2="143.60" y2="182.50"/>
+<line class="d" x1="110.60" y1="152.50" x2="143.60" y2="152.50"/>
+<line class="d" x1="142.50" y1="182.50" x2="142.50" y2="152.50" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="141.90" y="167.50" text-anchor="middle" transform="rotate(-90 141.90 167.50)">300</text>
+<text class="lbl" x="80.00" y="252.00" text-anchor="middle" >C10 — CORPO DA CAIXA (planificação) 1:10</text>
+<text class="xs" x="80.00" y="255.00" text-anchor="middle" >chapa perfurada 2 mm (furo Ø10, passo 15) · dobrar 4 abas 90° p/ cima · alívios Ø8 nos cantos</text>
+<polygon class="vf" points="154.50,185.00 215.50,185.00 215.50,183.00 217.50,183.00 217.50,147.00 215.50,147.00 215.50,145.00 154.50,145.00 154.50,147.00 152.50,147.00 152.50,183.00 154.50,183.00" style="fill:url(#furos)"/>
+<line class="h" x1="154.50" y1="183.00" x2="154.50" y2="147.00" />
+<line class="h" x1="215.50" y1="183.00" x2="215.50" y2="147.00" />
+<line class="h" x1="154.50" y1="147.00" x2="215.50" y2="147.00" />
+<line class="h" x1="154.50" y1="183.00" x2="215.50" y2="183.00" />
+<line class="d" x1="152.50" y1="146.40" x2="152.50" y2="140.90"/>
+<line class="d" x1="217.50" y1="146.40" x2="217.50" y2="140.90"/>
+<line class="d" x1="152.50" y1="142.00" x2="217.50" y2="142.00" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="185.00" y="141.40" text-anchor="middle" >650</text>
+<line class="d" x1="218.10" y1="185.00" x2="221.60" y2="185.00"/>
+<line class="d" x1="218.10" y1="145.00" x2="221.60" y2="145.00"/>
+<line class="d" x1="220.50" y1="185.00" x2="220.50" y2="145.00" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="219.90" y="165.00" text-anchor="middle" transform="rotate(-90 219.90 165.00)">400</text>
+<line class="d" x1="215.50" y1="144.40" x2="215.50" y2="136.90"/>
+<line class="d" x1="217.50" y1="146.40" x2="217.50" y2="136.90"/>
+<line class="d" x1="215.50" y1="138.00" x2="217.50" y2="138.00" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="216.50" y="137.40" text-anchor="middle" >20</text>
+<text class="lbl" x="185.00" y="189.50" text-anchor="middle" >C11 — TAMPA (planif.) 1:10</text>
+<text class="xs" x="185.00" y="192.30" text-anchor="middle" >abas de 20 dobradas p/ baixo · dobradiça piano</text>
+<text class="xs" x="185.00" y="194.80" text-anchor="middle" >K11 na testeira externa (lado x = −1600)</text>
+<rect class="vf" x="248.50" y="53.60" width="3.00" height="4.80" />
+<line class="h" x1="249.18" y1="58.40" x2="249.18" y2="53.60" />
+<line class="h" x1="250.82" y1="58.40" x2="250.82" y2="53.60" />
+<rect class="vf" x="251.50" y="54.10" width="145.97" height="3.80" />
+<rect class="vf" x="397.47" y="31.00" width="3.80" height="50.00" />
+<rect class="wh" x="397.17" y="68.00" width="4.40" height="13.00" />
+<rect class="wh" x="397.17" y="31.00" width="4.40" height="13.00" />
+<line class="c" x1="247.00" y1="56.00" x2="403.37" y2="56.00" />
+<line class="d" x1="250.00" y1="59.00" x2="250.00" y2="86.10"/>
+<line class="d" x1="399.37" y1="81.60" x2="399.37" y2="86.10"/>
+<line class="d" x1="250.00" y1="85.00" x2="399.37" y2="85.00" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="324.68" y="84.40" text-anchor="middle" >1494 (eixo do pino → eixo da manopla)</text>
+<line class="d" x1="251.50" y1="53.50" x2="251.50" y2="50.00"/>
+<line class="d" x1="397.47" y1="53.50" x2="397.47" y2="50.00"/>
+<line class="d" x1="251.50" y1="51.10" x2="397.47" y2="51.10" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="324.48" y="50.50" text-anchor="middle" >≈1460 (P12, boca-de-lobo nas 2 pontas)</text>
+<line class="d" x1="401.87" y1="81.00" x2="405.37" y2="81.00"/>
+<line class="d" x1="401.87" y1="31.00" x2="405.37" y2="31.00"/>
+<line class="d" x1="404.27" y1="81.00" x2="404.27" y2="31.00" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="403.67" y="56.00" text-anchor="middle" transform="rotate(-90 403.67 56.00)">500 (P13)</text>
+<line class="d" x1="402.17" y1="44.00" x2="410.17" y2="44.00"/>
+<line class="d" x1="402.17" y1="31.00" x2="410.17" y2="31.00"/>
+<line class="d" x1="409.07" y1="44.00" x2="409.07" y2="31.00" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="408.47" y="37.50" text-anchor="middle" transform="rotate(-90 408.47 37.50)">130</text>
+<line class="d" x1="247.90" y1="58.40" x2="244.90" y2="58.40"/>
+<line class="d" x1="247.90" y1="53.60" x2="244.90" y2="53.60"/>
+<line class="d" x1="246.00" y1="58.40" x2="246.00" y2="53.60" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="245.40" y="56.00" text-anchor="middle" transform="rotate(-90 245.40 56.00)">48</text>
+<line class="d" x1="250.00" y1="53.60" x2="247.33" y2="49.60"/>
+<circle cx="250.00" cy="53.60" r="0.35" fill="#000"/>
+<circle class="bal" cx="246.00" cy="47.60" r="2.4"/>
+<text class="bt" x="246.00" y="48.15" text-anchor="middle" >P14</text>
+<line class="d" x1="320.00" y1="56.00" x2="320.00" y2="61.60"/>
+<circle cx="320.00" cy="56.00" r="0.35" fill="#000"/>
+<circle class="bal" cx="320.00" cy="64.00" r="2.4"/>
+<text class="bt" x="320.00" y="64.55" text-anchor="middle" >P12</text>
+<line class="d" x1="399.37" y1="50.00" x2="393.40" y2="46.27"/>
+<circle cx="399.37" cy="50.00" r="0.35" fill="#000"/>
+<circle class="bal" cx="391.37" cy="45.00" r="2.4"/>
+<text class="bt" x="391.37" y="45.55" text-anchor="middle" >P13</text>
+<line class="d" x1="399.37" y1="74.50" x2="393.52" y2="77.43"/>
+<circle cx="399.37" cy="74.50" r="0.35" fill="#000"/>
+<circle class="bal" cx="391.37" cy="78.50" r="2.4"/>
+<text class="bt" x="391.37" y="79.05" text-anchor="middle" >K9</text>
+<text class="lbl" x="330.00" y="90.50" text-anchor="middle" >LANÇA — VISTA DE CIMA 1:10</text>
+<text class="xs" x="330.00" y="93.50" text-anchor="middle" >Manopla P13 soldada a 90° e PARALELA ao furo da bucha P14 (eixo do pino).</text>
+<rect class="vf" x="250.00" y="107.00" width="13.00" height="10.00" />
+<polyline class="t" points="250.00,116.00 250.00,111.00 251.00,111.60 249.00,112.40 250.00,113.00 250.00,108.00"/>
+<rect class="pl" x="257.00" y="117.00" width="20.00" height="1.60" />
+<rect class="pl" x="257.00" y="105.40" width="20.00" height="1.60" />
+<rect class="wf" x="268.00" y="107.20" width="6.00" height="9.60" />
+<rect class="vf" x="274.00" y="108.20" width="12.00" height="7.60" />
+<polyline class="t" points="286.00,114.80 286.00,111.00 287.00,111.60 285.00,112.40 286.00,113.00 286.00,109.20"/>
+<rect class="vf" x="269.40" y="102.60" width="3.20" height="18.80" />
+<circle class="v" cx="271.00" cy="123.00" r="1.40" />
+<line class="d" x1="278.60" y1="117.00" x2="290.10" y2="117.00"/>
+<line class="d" x1="278.60" y1="107.00" x2="290.10" y2="107.00"/>
+<line class="d" x1="289.00" y1="117.00" x2="289.00" y2="107.00" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="288.40" y="112.00" text-anchor="middle" transform="rotate(-90 288.40 112.00)">50</text>
+<line class="d" x1="257.00" y1="104.80" x2="257.00" y2="99.00"/>
+<line class="d" x1="277.00" y1="104.80" x2="277.00" y2="99.00"/>
+<line class="d" x1="257.00" y1="100.10" x2="277.00" y2="100.10" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="267.00" y="99.50" text-anchor="middle" >100</text>
+<line class="d" x1="271.00" y1="104.80" x2="271.00" y2="95.00"/>
+<line class="d" x1="277.00" y1="104.80" x2="277.00" y2="95.00"/>
+<line class="d" x1="271.00" y1="96.10" x2="277.00" y2="96.10" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="274.00" y="95.50" text-anchor="middle" >30</text>
+<circle cx="271.00" cy="103.20" r="0.3" fill="#000"/>
+<polyline class="d" points="271.00,103.20 279.00,101.20 280.50,101.20"/>
+<text class="xs" x="281.00" y="101.80" text-anchor="start" >K4 pino Ø16 inox + trava R</text>
+<circle cx="277.00" cy="117.80" r="0.3" fill="#000"/>
+<polyline class="d" points="277.00,117.80 283.00,123.80 284.50,123.80"/>
+<text class="xs" x="285.00" y="124.40" text-anchor="start" >C7 #8 (×2) soldado nas laterais de P5</text>
+<circle cx="271.00" cy="110.00" r="0.3" fill="#000"/>
+<polyline class="d" points="271.00,110.00 287.00,114.00 288.50,114.00"/>
+<text class="xs" x="289.00" y="114.60" text-anchor="start" >P14 bucha Ø30×48, furo Ø16,5</text>
+<circle cx="256.00" cy="112.00" r="0.3" fill="#000"/>
+<polyline class="d" points="256.00,112.00 254.00,123.00 252.50,123.00"/>
+<text class="xs" x="252.00" y="123.60" text-anchor="end" >P5 braço 50×50×3 L200</text>
+<text class="lbl" x="285.00" y="129.00" text-anchor="middle" >DETALHE B — ARTICULAÇÃO DA LANÇA 1:5 (vista de cima)</text>
+<polygon class="vf" points="265.37,146.50 370.79,146.50 372.12,149.50 258.63,149.50" />
+<line class="c" x1="256.00" y1="148.00" x2="375.45" y2="148.00" />
+<line class="d" x1="262.00" y1="148.60" x2="262.00" y2="154.60"/>
+<line class="d" x1="371.45" y1="148.60" x2="371.45" y2="154.60"/>
+<line class="d" x1="262.00" y1="153.50" x2="371.45" y2="153.50" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<text class="dt" x="316.73" y="152.90" text-anchor="middle" >≈1095 (no eixo)</text>
+<text class="xs" x="260.00" y="145.00" text-anchor="start" >corte 24° (apoia na viga P7)</text>
+<text class="xs" x="372.45" y="145.00" text-anchor="end" >corte 66° (face do mastro)</text>
+<text class="lbl" x="316.73" y="158.50" text-anchor="middle" >P11 — TIRANTE 30×30×3 (×1) 1:10 · traçar no gabarito com a carreta montada</text>
+<text class="lbl" x="236.00" y="172.00" text-anchor="start" >MONTAGEM DO PORTA-CAIXA E CAIXA</text>
+<text class="xs" x="236.00" y="175.80" text-anchor="start" >1. P7 soldada na face traseira do mastro (3 lados) e sobre o calço P8;</text>
+<text class="xs" x="236.00" y="178.70" text-anchor="start" >   2 furos Ø8,5 verticais (cotas 88 / 524) com bucha interna L44 (K12).</text>
+<text class="xs" x="236.00" y="181.60" text-anchor="start" >2. P11 soldado no mastro (z 900) e sobre P7 a 1000 da face do mastro.</text>
+<text class="xs" x="236.00" y="184.50" text-anchor="start" >3. Caixa: dobrar C10; cantos internos com P20 (3 rebites por aba);</text>
+<text class="xs" x="236.00" y="187.40" text-anchor="start" >   borda superior P18 (cantos 45°) rebitada; base P19 (tubo 25×25×2)</text>
+<text class="xs" x="236.00" y="190.30" text-anchor="start" >   rebitada sob o fundo e parafusada em P7 com K8.</text>
+<text class="xs" x="236.00" y="193.20" text-anchor="start" >4. Tampa C11 com dobradiça piano K11 na testeira externa, fecho inox</text>
+<text class="xs" x="236.00" y="196.10" text-anchor="start" >   na testeira do lado do mastro. Rebites pop alumínio Ø4,8.</text>
+<text class="xs" x="236.00" y="199.00" text-anchor="start" >5. CONFERIR com os caiaques montados: folga ≥ 30 mm entre a caixa e</text>
+<text class="xs" x="236.00" y="201.90" text-anchor="start" >   as popas do nível de baixo. Se faltar, reduzir largura p/ 300.</text>
+<text class="lbl" x="236.00" y="206.80" text-anchor="start" >LANÇA</text>
+<text class="xs" x="236.00" y="210.60" text-anchor="start" >6. Bucha P14 soldada na ponta do tubo P12 (boca-de-lobo Ø30);</text>
+<text class="xs" x="236.00" y="213.50" text-anchor="start" >   manopla P13 soldada na outra ponta (boca-de-lobo Ø38).</text>
+<rect x="233" y="252" width="177" height="35" fill="#fff" stroke="#000" stroke-width="0.5"/>
+<line class="t" x1="233" y1="265" x2="410" y2="265"/>
+<line class="t" x1="233" y1="276" x2="410" y2="276"/>
+<line class="t" x1="278" y1="265" x2="278" y2="287"/>
+<line class="t" x1="323" y1="265" x2="323" y2="287"/>
+<line class="t" x1="368" y1="265" x2="368" y2="287"/>
+<text x="236" y="258.2" font-size="4.3" font-weight="bold">CARRETA PORTA-CAIAQUES — 6 UNIDADES</text>
+<text class="tb" x="236" y="262.8" font-weight="bold">Folha 4 — Porta-caixa, caixa e lança</text>
+<text class="xs" x="407" y="262.8" text-anchor="end">Aqua Terra Paraty · Paraty/RJ</text>
+<text font-size="1.7" x="235" y="268" fill="#555">ESCALA</text>
+<text class="tb" x="235" y="273" font-weight="bold">1:10 (indicadas)</text>
+<text font-size="1.7" x="280" y="268" fill="#555">FOLHA</text>
+<text class="tb" x="280" y="273" font-weight="bold">4 / 5</text>
+<text font-size="1.7" x="325" y="268" fill="#555">UNIDADE</text>
+<text class="tb" x="325" y="273" font-weight="bold">mm · 1º diedro</text>
+<text font-size="1.7" x="370" y="268" fill="#555">REVISÃO</text>
+<text class="tb" x="370" y="273" font-weight="bold">3 — fabricação</text>
+<text font-size="1.7" x="235" y="279" fill="#555">DATA</text>
+<text class="tb" x="235" y="284" font-weight="bold">14/10/2026</text>
+<text font-size="1.7" x="280" y="279" fill="#555">DESENHO</text>
+<text class="tb" x="280" y="284" font-weight="bold">Claude / Lucas</text>
+<text font-size="1.7" x="325" y="279" fill="#555">MATERIAL</text>
+<text class="tb" x="325" y="284" font-weight="bold">Alum. 6061-T6</text>
+<text font-size="1.7" x="370" y="279" fill="#555">FORMATO</text>
+<text class="tb" x="370" y="284" font-weight="bold">A3</text>
+</svg>
